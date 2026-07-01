@@ -27,39 +27,39 @@
         </nav>
     </header>
 
-    <section id ="home" class="flex items-center justify-between p-20">
-        <div>
+    <section id ="home" class="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-10 md:py-20 gap-10">
+        <div class="text-center md:text-left">
             <p class="text-3xl text-blue-600 font-bold">
                 <i class="fa-solid fa-hand"></i>Hello, I am
             </p>
-            <h1 class="text-5xl font-bold mt-3">
+            <h1 class="text-4xl md:text-5xl font-bold mt-3">
                 Agraz
                 <span class="text-blue-600">Adhikari</span>
             </h1>
-            <h2 class="text-2xl text-gray-600 mt-3">
+            <h2 class="text-xl md:text-2xl text-gray-600 mt-3">
                 Bsc (Hons) Computing Student
             </h2>
-            <p class="mt-5 text-gray-500 max-w-lg">
+            <p class="mt-5 text-gray-500 max-w-lg mx-auto md:mx-0">
                 I am a BSc (Hons) Computing student who enjoys
                 building simple and responsive websites while
                 learning modern web technologies.
             </p>
 
-            <div class="mt-8">
-                <a href="#projects" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-gray-600">
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <a href="#projects" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-gray-700 transition duration-300 text-cemter">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     View Projects   
                 </a>
 
-                <a href="#contact" class="border border-blue-600 text-blue-600 px-6 py-2 rounded ml-4 hover:bg-gray-600 hover:text-white">
+                <a href="#contact" class="border border-blue-600 text-blue-600 px-6 py-2 rounded hover:bg-gray-600 hover:text-white transition duration-300 text-center">
                     <i class="fa-solid fa-paper-plane"></i>
                     Contact Me
                 </a>
             </div>
         </div>
 
-        <div>
-            <img src="/img/Profile.png" alt="Profile Picture" class="w-80 rounded-full border-4 border-transparent hover:border-blue-600 hover:shadow-xl hover:scale-105 transition duration-300">
+        <div class="flex justify-center">
+            <img src="/img/Profile.png" alt="Profile Picture" class="w-56 sm:w-64 md:w-80 rounded-full border-4 border-transparent hover:border-blue-600 hover:shadow-xl hover:scale-105 transition duration-300">
         </div>
     </section>
 
